@@ -1,3 +1,6 @@
+
+
+
 def send_email(sendto, subject, text):
     username = "omarguaba54@gmail.com" # Change this!
     password = "Esculapio01" # Change this!
@@ -17,4 +20,17 @@ def send_email(sendto, subject, text):
             print("Failed to send email due to Exception:")
             print(e)
             
-send_email("omarguabaplan@gmail.com","jfk","kfkf")
+send_email(element,"How to Get More Clients","""\
+
+Hi there,
+
+My name is Omar Guaba. I am SEO expert who is offering my services to people like you to make them generate more sales.
+
+Please check it out:
+https://www.upwork.com/services/product/a-fabulous-seo-service-1421195933987880960
+
+Looking forward to hearing from you,
+
+
+Omar Guaba 
+""")
