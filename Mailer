@@ -22,7 +22,7 @@ def send_email(sendto, subject, text):
             
 send_email(element,"How to Get More Clients","""\
 
-Hi there,
+Hi {},
 
 My name is Omar Guaba. I am SEO expert who is offering my services to people like you to make them generate more sales.
 
@@ -33,4 +33,4 @@ Looking forward to hearing from you,
 
 
 Omar Guaba 
-""")
+""".format(first_last))
