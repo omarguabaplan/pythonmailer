@@ -42,6 +42,15 @@ for line in fhand:
 
                      r"\.[A-Za-z]{2,4}", s)
     
+    element = reg[a]
+    a++
+    
+    
+    b = HumanName(s).first
+    c = HumanName(s).last
+    first_last = b + " " + c
+    
+    
     def send_email(sendto, subject, text):
     username = "omarguaba54@gmail.com" # Change this!
     password = "Esculapio01" # Change this!
@@ -74,6 +83,7 @@ Looking forward to hearing from you,
 
 Omar Guaba 
 """.format(first_last))
+               
   
 
     # printing the list output 
